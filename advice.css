@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #202733;
+}
+
+.container {
+    text-align: center;
+}
+
+/* generator css begin */
+
+.container .container-inner {
+    width: 540px;
+    height: 342px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background: #313a48;
+    box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+    transform: translate(0, 50%);
+    font-family: "Manrope", sans-serif;
+    position: relative;
+}
+
+.container-inner .advice-container {
+    text-align: center;
+    padding: 24px 48px 0px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.advice-container .advice-id {
+    font-size: 13px;
+    color: #53ffaa;
+    letter-spacing: 4.09px;
+    font-weight: 800;
+}
+
+.advice-container .advice-text {
+    color: #cee3e9;
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -0.3px;
+}
+
+.container .divider {
+    padding: 24px;
+}
+
+.container .btn {
+    position: absolute;
+    left: 240px;
+    top: 305px;
+    border: 50%;
+}
+
+.btn .advice-btn {
+    background-color: #53ffaa;
+    border: none;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    transition: 0.2s ease;
+}
+
+.btn .advice-btn:hover {
+    background: #53ffaa;
+    box-shadow: 0px 0px 40px #53ffaa;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px 20px;
+    }
+
+    .container .container-inner {
+        width: 343px;
+        height: 315px;
+    }
+
+    .advice-container .advice-text {
+        font-size: 24px;
+    }
+
+    .container-inner .advice-container {
+        padding: 24px 24px 0;
+    }
+
+    .container-inner .divider svg {
+        width: 295px;
+    }
+
+    .container-inner .divider {
+        padding: 12px;
+    }
+
+    .container .btn {
+        top: 275px;
+        left: 140px;
+    }
+}
